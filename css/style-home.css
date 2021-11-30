@@ -1,0 +1,55 @@
+.corpo {
+    background: darkgrey;
+    padding: 15px;
+}
+.titulo-principal{
+    padding-left: 15px;
+}
+#banner {
+    width: 100%;
+}
+
+#titulo {
+    text-align: center;
+}
+
+.corpo a {
+    text-decoration: none;  
+    color: purple; 
+}
+
+.corpo a:hover{
+    font-size: 120%;
+}
+
+.corpo p {
+    text-align: center;
+    color: white;
+}
+
+#linkZero {
+    color: purple;
+
+}
+
+.atletas {
+    background: white;
+   padding: 15px;
+
+}
+
+
+.atleta {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.conhecaAtletas ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagemAtleta {
+    width: 40%;
+}

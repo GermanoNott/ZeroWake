@@ -1,0 +1,68 @@
+.content a:hover {
+    text-decoration: underline;
+}
+#container {
+    width: 90%;
+    max-width: 980px;
+    margin: 20px auto;
+    
+    display: flex;
+}
+
+button {
+    
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+
+/* Modal */
+
+#modal {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    /* 100 vw ocupa toda a largura e o 100vh toda a altura */
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    transition: 400ms;
+}
+
+#modal .content {
+    margin-top: 60px;
+}
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+#modal .content a {
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    color: rgb(221, 130, 25);
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#modal .content p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
